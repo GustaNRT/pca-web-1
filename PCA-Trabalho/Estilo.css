@@ -1,0 +1,87 @@
+body {
+    text-align: justify;
+    background-color: #676eb0;
+}
+   
+
+div#interface {
+    background-color: white;
+    margin: -10px 100px 0px 100px;
+    width: 1100px;
+    padding: 20px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 220px;
+    height: 220px;
+}
+
+/* Formatação cabeçalho */
+
+header div#login {
+    text-align: right;   
+    position: absolute;
+    left: 1057px;
+    top: 20px;
+}
+
+header div button {
+    position: relative;
+    right: 10px;
+}
+
+header div#login a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Formatação menu */
+
+nav#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 40px 0px 40px;
+    background-color: #676eb0;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: color 1s;
+}
+
+nav#menu ul {
+    position: absolute;
+    top: 145px;
+    right: 80px;
+}
+
+nav#menu ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu ul a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Formatação do rodapé */
+
+footer div ul#icones img.icon {
+    width: 65px;
+    height: 65x;
+
+}
+
+ul#icones li {
+    padding: 1px;
+}
+
+ul#icones {
+    float: right;
+}
+
+
+
+    
